@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My person Web Site</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="img/gif" href="icon.png">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" class="gambar"/>
+            <nav class="home">
+                <a href="#home" class="satu">Home</a>
+                <a href="#about1" class="dua">About</a>
+                <a href="#my_servis" class="tiga">Services</a>
+                <a href="#myprojek" class="empat">Projek</a>
+                <button class="lima"><a  href="#contact" id="con">Contact</a></button>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="hero">
+                <div class="gambar12"><img src="model.png"></div>
+                <h1>Hi Im Muhammad Fadhil irsyad
+                Digital creator</h1>
+                <p> I will help you to bring text level for you  business</p>
+                    <div class="garis1"><img src="garis.png"></div>
+                    <button class="buttondownload">download cv</button>
+                    <button class="buttonportofolio">view portofolio</button>
+                <img src="hero.jpg" class="foto_diri">
+            </div>  
+        </section>
+        <section id="about1">
+            <h1 class="about">ABOUT ME</h1>
+            <h2 class="hello">Hallo</h2>
+            <div class="isi">
+                <P>perkenalkan nama saya Muhammad Fadhil Irsyad <br>biasa dipanggil dengan Fadhil dan saya masih berstatus<br> pelajar di sekolah SMK Telkom Jakarta.</P>
+                <P>saya duduk dikelas XI untuk saat ini dan saya mengambil <br>jurusan Rekayasa perangkat lunak karena menurut saya<br> jurusanini yang paling tepat dan sangat dicari<br> oleh perusahaan.</P>
+                <P>saya lahir di jakarta tanggal 9 bulan juni<br> tahun 2007 dann saya sekarang berusia 16 tahun.</P>
+            </div>
+        </section>
+        <section id="my_servis">
+            <h1 class="servis">MY SERVICES</h1>
+            <div id="servis1">
+                <img src="pentools.png" class="pen">
+                <h3 class="h3">Website Desaign</h3>
+                <p class="pentools">Learn how to make websites that are easy to understand</p>
+                <button class="tombol1"><img src="Arrow 3.png" class="panah"></button>
+            </div>
+            <div id="servis2">
+                <img src="pc.png" class="pen">
+                <h3 class="h32">Development</h3>
+                <p class="pentools">how to become Development that is <br>not criticized by others</p>
+                <button class="tombol1"><img src="Arrow 3.png" class="panah"></button>
+            </div>
+            <div id="servis3">
+                <img src="pen.png" class="pen">
+                <h3 class="h33">Mobile App Desaign</h3>
+                <p class="pentools">building a structured <br>and clearly defined app</p>
+                <button class="tombol1"><img src="Arrow 3.png" class="panah"></button>
+            </div>
+        </section>
+        <section id="myprojek">
+            <h1 class="projek">My Projek</h1>
+            <p class="projek1">this is my third wrong project which i am working on now</p>
+            <button class="tombolkiri">←</button>
+            <div class="html1">
+                <img src="HTML.jpeg" class="gambarhtml1">
+                <p class="tekshtml">html</p>
+            </div>
+            <div class="figma2"><img src="figma.jpeg" class="gambarfigma"/></div>
+            <div class="java2"><img src="java.jpeg" class="gambarjava"/></div>
+            <button class="tombolkanan">→</button>
+        </section>
+        <section id="contact">
+            <h1 class="tekskontak">Contact</h1>
+            <h2 class="teks_bawah">Let's Talk About Your Idea</h2>
+                <form id="massage">
+                    <p>
+                        <label for="nama_depan"></label>
+                        <input type="text" id="nama_depan1" name="nama_depan" placeholder="first name.." required/>
+                        
+                    </p>
+                    <p>
+                        <label for="nama_belakang"></label>
+                        <input type="text" id="nama_belakang" name="nama_belakang" placeholder="last name.." required/>
+                        
+                    </p>
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" id="email-" name="email" placeholder="email.." required/>
+                        
+                    </p>
+                    <p>
+                        <label></label>
+                        <textarea name="pesan" id="pesan" placeholder="massage.."></textarea>
+                    </p>
+                    <p>
+                        <button id="submit" onclick="validateForm()">submit</button>
+                    </p>
+                    
+                    <script>
+                        function validateForm() {
+                            // Mengambil semua elemen input yang memiliki atribut required
+                            var requiredInputs = document.querySelectorAll('input[required]');
+                            var formIsValid = true;
+                    
+                            // Memeriksa setiap elemen input
+                            requiredInputs.forEach(function(input) {
+                                if (input.value.trim() === '') {
+                                    formIsValid = false;
+                                }
+                            });
+                    
+                            // Menampilkan pesan jika formulir tidak valid
+                            if (!formIsValid) {
+                                alert('harus mengisi label');
+                            } else {
+                                // Redirect ke halaman index.html jika formulir valid
+                                window.location.href = "index.html";
+                            }
+                        }
+                    </script>
+                </form>
+        </section>
+    </body>
+</html>

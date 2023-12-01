@@ -1,0 +1,547 @@
+body {
+    background-color: #ffffff;
+    overflow-x:hidden;
+}
+/*header----------------------------------------------------------------------------------------------------------------------------------------------*/
+header {
+    background-color: #00eaff;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 5px solid #82828250;
+    height: 110px;
+    position: fixed; /* Tambahkan ini untuk membuat header tetap */
+    top: 0; /* Atur bagian atas header ke 0 untuk tetap di atas */
+    width: 100%; /* Header akan memiliki lebar 100% */
+    z-index: 100; /* Gunakan z-index untuk memastikan header selalu di atas elemen lainnya */
+}
+section {
+    min-height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+.gambar{
+    bottom: 40px;
+    right: 700px;
+    position: relative;
+    width:"90px"; 
+    height:"40px";
+}
+.hero{
+    top: 400px;
+    left: 300px;
+    position: relative;
+    font-size: 30px;
+}
+.foto_diri{
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    width:550px; 
+    height:775px;
+    border-radius: 50px;
+    border: 10px solid rgb(0, 221, 255);
+    transition: transform 0.3s;
+}
+.foto_diri:hover{
+    transform: scale(1.1);
+}
+.home{
+    bottom: 190px;
+    left: 250px;
+    position: relative;
+    font-size: 35px;
+    color: #000000;
+}
+.satu{
+    top: 20px;
+    right: 80px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.satu:hover{
+    color: #ffffff;
+}
+.dua{
+    top: 20px;
+    right: 20px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dua:hover{
+    color: #ffffff;
+}
+.tiga{
+    top: 20px;
+    left: 30px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tiga:hover{
+    color: #ffffff;
+}
+.empat{
+    top: 20px;
+    left: 70px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.empat:hover{
+    color: #ffffff;
+}
+
+.lima {
+    position: relative;
+    left: 500px;
+    top: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border-color: #0080ff;
+    transition: transform 0.3s;
+}
+#contact{
+    position: relative;
+    bottom: 1100px;
+
+}
+#con{
+    text-decoration: none;
+    color: #000000;
+}
+
+.lima:hover{
+    transform: scale(1.1);
+}
+.lima:active{
+    background-color: #002fff;
+}
+/*header*/
+
+/*ini bagian halaman 1 home----------------------------------------------------------------------------------------------------------------------------------------------*/
+.buttondownload{
+    bottom:750px;
+    left: 10px;
+    position: relative;
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    border: 3px solid #00bbff;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    transition: transform 0.3s;
+}
+.buttondownload:hover {
+    background-color: #00bbff;
+    transform: scale(1.1);
+}
+.buttondownload:active {
+    background-color: #000dff;
+}
+.buttonportofolio{
+    bottom: 750px;
+    left: 100px;
+    position: relative;
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    border: 3px solid #00bbff;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    transition: transform 0.3s;
+}
+.buttonportofolio:hover {
+    background-color: #00bbff;
+    transform: scale(1.1);
+}
+.buttonportofolio:active {
+    background-color: #000dff;
+}
+.garis1{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+/*halaman 1 sampai sini*/
+/*ini about----------------------------------------------------------------------------------------------------------------------------------------------*/
+.about{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding-top: 50px ;
+}
+.hello{
+    font-size: 120px;
+    position: relative;
+    top: 350px;
+    left: 400px;
+}
+.isi{
+    font-size: 35px;
+    position: relative;
+    top: 0px;
+    left: 1100px;
+}
+/*about sampai sini*/
+/*ini servis ----------------------------------------------------------------------------------------------------------------------------------------------*/
+#my_servis > div{
+    position: relative;
+}
+.servis{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding-top: 50px;
+}
+#servis1 {
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 5px solid rgb(0, 179, 255);
+    position: relative;
+    top: 200px;
+    left: 300px;
+    border-radius: 75px;
+    transition: transform 0.3s;
+}
+#servis1:hover {
+    background-color: #00ccff;
+    transform: scale(1.1);
+}
+.pen{
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 95px;
+}
+.h3{
+    font-size: 40px;
+    left: 60px;
+    top: 40px;
+    position: relative;
+}
+.pentools{
+    font-size: 20px;
+    left: 0px;
+    top: 50px;
+    position: relative;
+    text-align: center;
+}
+.tombol1{
+    width: 280px;
+    height: 70px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    border-radius: 100px;
+    border-color: rgb(0, 183, 255);
+    background-color: white;
+}
+.tombol1:active {
+    background-color: #e7e7e7;
+}
+#servis2 {
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 5px solid rgb(0, 179, 255);
+    position: relative;
+    bottom: 410px;
+    left: 890px;
+    border-radius: 75px;
+    transition: transform 0.3s;
+}
+
+#servis2:hover {
+    background-color: #00ccff;
+    transform: scale(1.1);
+}
+
+.h32{
+    font-size: 40px;
+    left: 85px;
+    top: 40px;
+    position: relative;
+}
+#servis3{
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 5px solid rgb(0, 179, 255);
+    position: relative;
+    bottom: 1020px;
+    left:1500px;
+    border-radius: 75px;
+    transition: transform 0.3s;
+}
+#servis3:hover {
+    background-color: #00ccff;
+    transform: scale(1.1);
+}
+.h33{
+    font-size: 40px;
+    left: 30px;
+    top: 40px;
+    position: relative;
+}
+/*servis sampai sini*/
+/*ini masuk ke projek ----------------------------------------------------------------------------------------------------------------------------------------------*/
+#myprojek{
+    position: relative;
+    bottom: 800px;
+}
+.projek{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top : 100px;
+    padding-top: 100px;
+}
+.projek1{
+    text-align: center;
+    top: 80px;
+    position: relative;
+    font-size: 25px;
+}
+.tombolkiri{
+    top: 300px;
+    left: 80px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 2px solid #00eeff;
+    color: #000000;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.tombolkiri:hover {
+    background-color: #00ccff;
+    transform: scale(1.1);
+}
+.tombolkiri:active {
+    background-color: #f9f9f9;
+}
+.html1{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 115px;
+    left: 210px;
+    transition: transform 0.3s;
+}
+.html1:hover{
+    transform: scale(1.1);
+}
+.html1:active {
+    filter: blur(5px);
+}
+.gambarhtml1{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+.tekshtml{
+    font-size:100px;
+    bottom: 320px;
+    left: 160px;
+    position: relative;
+    color: #ffffff;
+}
+.figma2{
+    position: relative;
+    bottom: 85px;
+    left:  780px;
+}
+.gambarfigma{
+    width: 540px;
+    height: auto;
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+.gambarfigma:hover{
+    transform: scale(1.1);
+}
+.gambarfigma:active{
+    filter: blur(5px);
+}
+.java2{
+    position: relative;
+    bottom: 390px;
+    left: 1400px;
+}
+.gambarjava{
+    border-radius: 50px;
+    width: 455px;
+    height: auto;
+    transition: transform 0.3s;
+}
+.gambarjava:hover{
+    transform: scale(1.1);
+}
+.gambarjava:active{
+    filter: blur(5px);
+}
+.tombolkanan{
+    bottom: 605px;
+    left: 1900px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 2px solid #00eeff;
+    color: #000000;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.tombolkanan:hover {
+    background-color: #00ccff;
+    transform: scale(1.1);
+}
+.tombolkanan:active {
+    background-color: #ffffff;
+}
+/*sampai sini*/
+/*masuk ke kontact----------------------------------------------------------------------------------------------------------------------------------------------*/
+#contact > h1 > h2 > form{
+    margin-top: 100px;
+}
+.tekskontak{
+    font-size: 80px;
+    position: relative;
+    top: 200px;
+    left: 900px;
+}
+.teks_bawah{
+    font-size: 50px;
+    position: relative;
+    top: 200px;
+    left: 760px;
+    color: #00bbff;
+}
+#massage{
+    position: relative;
+    top: 0px;
+    left:950px;
+}
+#nama_depan1{
+    font-size: 16px;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    right: 415px;
+    top: 221px;
+    font-size: 20px;
+    border-color: #00eeff;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#nama_depan1:hover {
+    transform: scale(1.1);
+}
+#nama_depan1:active {
+    background-color: #dcdcdc;
+}
+#nama_belakang{
+    font-size: 16px;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    left: 115px;
+    top: 130px;
+    font-size: 20px;
+    border-color: #00eeff;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#nama_belakang:hover {
+    transform: scale(1.1);
+}
+#nama_belakang:active {
+    background-color: #dcdcdc
+}
+#email-{
+    font-size: 16px;
+    width: 980px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    right: 415px;
+    top: 150px;
+    font-size: 20px;
+    border-color: #00eeff;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#email-:hover {
+    transform: scale(1.1);
+}
+#email-:active {
+    background-color: #dcdcdc;
+}
+#pesan{
+    font-size: 16px;
+    width: 980px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    right: 415px;
+    top: 190px;
+    font-size: 20px;
+    border-color: #00b3ff;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#pesan:hover {
+    transform: scale(1.1);
+}
+#pesan:active {
+    background-color: #dcdcdc;
+}
+#submit{
+    font-size: 16px;
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    position: relative;
+    left: 4px;
+    top: 220px;
+    font-size: 20px;
+    border-color: #00b3ff;
+    padding-left: 6px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#submit:hover {
+    transform: scale(1.1);
+}
+#submit:active {
+    background-color: #0088ff;
+}
